@@ -22,6 +22,9 @@ export default function Home() {
   // 4. make the user name look good
   // 5. let the user post their own reply
 
+ 
+ let account 
+ 
   return (
     <main>
       <header>
@@ -31,7 +34,7 @@ export default function Home() {
           <input type="text" placeholder="Search" />
         </form>
 
-        <button>Connect</button>
+        <Account account={account}/>
       </header>
 
       <section className="question">
